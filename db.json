@@ -1,0 +1,11 @@
+{
+  "schools": [
+    {
+      "id": 1772804639155,
+      "name": "Test School",
+      "address": "Hyderabad",
+      "latitude": 17.385,
+      "longitude": 78.4867
+    }
+  ]
+}
