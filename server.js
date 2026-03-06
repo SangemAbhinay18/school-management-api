@@ -33,6 +33,10 @@ function calculateDistance(lat1, lon1, lat2, lon2) {
   return R * c
 }
 
+app.get("/", (req, res) => {
+  res.json({ message: "Welcome to the School Locator API" })
+});
+
 app.post("/addSchool", async (req, res) => {
 
   const { name, address, latitude, longitude } = req.body
